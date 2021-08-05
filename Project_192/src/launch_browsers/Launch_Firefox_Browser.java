@@ -35,6 +35,7 @@ public class Launch_Firefox_Browser {
 		FirefoxDriver firefox=new FirefoxDriver();
 		firefox.get("https://google.com");
 		
+		
 		System.out.println(firefox.getTitle());
 
 	}
