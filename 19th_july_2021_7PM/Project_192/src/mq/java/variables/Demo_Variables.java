@@ -8,4 +8,10 @@ public class Demo_Variables
 	
 	static int b=200;			//Global variable	 [static/class methods]
 	public static String user="Sunil";	//Global variable
+	
+	
+	public static void main(String args[])
+	{
+		
+	}
 }
