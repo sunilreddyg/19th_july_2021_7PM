@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="default" parallel="classes">
+	<test name="Test1">
+			<classes>
+					<class name="framework.Testng.ParallelExecution.TestA"></class>
+					<class name="framework.Testng.ParallelExecution.TestB"></class>
+			</classes>
+	</test>
+</suite>

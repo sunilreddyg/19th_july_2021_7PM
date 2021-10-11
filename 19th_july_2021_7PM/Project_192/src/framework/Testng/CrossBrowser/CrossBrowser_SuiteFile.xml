@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="deafult" parallel="tests" thread-count=5>
+
+	    <parameter name="appurl" value="http://facebook.com"></parameter>
+		<parameter name="UID" value="sunil"></parameter>
+		<parameter name="PWD" value="112345"></parameter>
+		
+
+	<test name="Test_with_chrome">
+		<classes>
+				<parameter name="browsername" value="chrome"/>
+				<class name="framework.Testng.CrossBrowser.CrossBrowser_Test"/>
+		</classes>
+	</test>
+	
+	<test name="Test_with_Firefox">
+		<classes>
+				<parameter name="browsername" value="firefox"/>
+				<class name="framework.Testng.CrossBrowser.CrossBrowser_Test"/>
+		</classes>
+	</test>
+	
+	<test name="Test_with_Edge">
+		<classes>
+				<parameter name="browsername" value="edge"/>
+				<class name="framework.Testng.CrossBrowser.CrossBrowser_Test"/>
+		</classes>
+	</test>
+	
+</suite>
